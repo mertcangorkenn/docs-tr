@@ -1,28 +1,28 @@
 # vuejs.org
 
-## Contributing
+## Katkıda Bulunma
 
-This site is built with [VitePress](https://github.com/vuejs/vitepress) and depends on [@vue/theme](https://github.com/vuejs/vue-theme). Site content is written in Markdown format located in `src`. For simple edits, you can directly edit the file on GitHub and generate a Pull Request.
+Bu site, [VitePress](https://github.com/vuejs/vitepress) ile oluşturulmuş olup, [@vue/theme](https://github.com/vuejs/vue-theme). bağımlılığına sahiptir. Site içeriği, src dizininde bulunan Markdown formatında yazılmıştır. Basit düzenlemeler için dosyayı doğrudan GitHub üzerinde düzenleyebilir ve bir Pull Request oluşturabilirsiniz.
 
-For local development, [pnpm](https://pnpm.io/) is preferred as package manager:
+Yerel geliştirme için paket yöneticisi olarak [pnpm](https://pnpm.io/) tercih edilir:
 
 ```bash
 pnpm i
 pnpm run dev
 ```
-
-This project requires Node.js to be `v18` or higher. And it is recommended to enable corepack:
+Bu proje, Node.js'in v18 veya daha yüksek bir sürümünü gerektirir. Ayrıca, corepack'i etkinleştirmeniz önerilir:
 
 ```bash
 corepack enable
 ```
 
-## Working on the content
+## İçerik Üzerinde Çalışma
 
-- See VitePress docs on supported [Markdown Extensions](https://vitepress.dev/guide/markdown) and the ability to [use Vue syntax inside markdown](https://vitepress.dev/guide/using-vue).
+- Desteklenen [Markdown Uzantıları](https://vitepress.dev/guide/markdown) ve markdown içinde [Vue söz dizimini kullanma](https://vitepress.dev/guide/using-vue) hakkında bilgi almak için VitePress belgelerine bakın.
+  
+- Dokümantasyon içeriği yazma ve sürdürme konusundaki kurallarımız ve önerilerimiz için [Yazım Rehberi'ni](https://github.com/vuejs/docs/blob/main/.github/contributing/writing-guide.md) inceleyin.
 
-- See the [Writing Guide](https://github.com/vuejs/docs/blob/main/.github/contributing/writing-guide.md) for our rules and recommendations on writing and maintaining documentation content.
+## Tema Üzerinde Çalışma
 
-## Working on the theme
-
-If changes need to made for the theme, check out the [instructions for developing the theme alongside the docs](https://github.com/vuejs/vue-theme#developing-with-real-content).
+If changes need to made for the theme, check out the 
+Tema için değişiklik yapılması gerekiyorsa, [gerçek içerikle birlikte temayı geliştirme talimatlarını](https://github.com/vuejs/vue-theme#developing-with-real-content) inceleyin.
