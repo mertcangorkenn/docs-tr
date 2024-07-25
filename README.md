@@ -24,5 +24,4 @@ corepack enable
 
 ## Tema Üzerinde Çalışma
 
-If changes need to made for the theme, check out the 
 Tema için değişiklik yapılması gerekiyorsa, [gerçek içerikle birlikte temayı geliştirme talimatlarını](https://github.com/vuejs/vue-theme#developing-with-real-content) inceleyin.
