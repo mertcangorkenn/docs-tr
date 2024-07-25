@@ -11,19 +11,19 @@ const nav: ThemeConfig['nav'] = [
     text: 'Docs',
     activeMatch: `^/(guide|style-guide|cookbook|examples)/`,
     items: [
-      { text: 'Guide', link: '/guide/introduction' },
-      { text: 'Tutorial', link: '/tutorial/' },
-      { text: 'Examples', link: '/examples/' },
-      { text: 'Quick Start', link: '/guide/quick-start' },
-      // { text: 'Style Guide', link: '/style-guide/' },
-      { text: 'Glossary', link: '/glossary/' },
-      { text: 'Error Reference', link: '/error-reference/' },
+      { text: 'Kılavuz', link: '/guide/introduction' },
+      { text: 'Eğitim', link: '/tutorial/' },
+      { text: 'Örnekler', link: '/examples/' },
+      { text: 'Hızlı Başlangıç', link: '/guide/quick-start' },
+      // { text: 'Stil Kılavuzu', link: '/style-guide/' },
+      { text: 'Sözlük', link: '/glossary/' },
+     { text: 'Hata Referansı', link: '/error-reference/' },
       {
-        text: 'Vue 2 Docs',
+        text: 'Vue 2 Belgeleri',
         link: 'https://v2.vuejs.org'
       },
       {
-        text: 'Migration from Vue 2',
+        text: 'Vue 2'den Geçiş',
         link: 'https://v3-migration.vuejs.org/'
       }
     ]
@@ -34,37 +34,37 @@ const nav: ThemeConfig['nav'] = [
     link: '/api/'
   },
   {
-    text: 'Playground',
+    text: 'Test Alanı',
     link: 'https://play.vuejs.org'
   },
   {
-    text: 'Ecosystem',
+    text: 'Ekosistem',
     activeMatch: `^/ecosystem/`,
     items: [
       {
-        text: 'Resources',
+        text: 'Kaynaklar',
         items: [
-          { text: 'Partners', link: '/partners/' },
-          { text: 'Themes', link: '/ecosystem/themes' },
-          { text: 'UI Components', link: 'https://ui-libs.vercel.app/' },
+         { text: 'Ortaklar', link: '/partners/' },
+          { text: 'Temalar', link: '/ecosystem/themes' },
+          { text: 'UI Bileşenleri', link: 'https://ui-libs.vercel.app/' },
           {
-            text: 'Certification',
+            text: 'Sertifikasyon',
             link: 'https://certificates.dev/vuejs/?ref=vuejs-nav'
           },
-          { text: 'Jobs', link: 'https://vuejobs.com/?ref=vuejs' },
-          { text: 'T-Shirt Shop', link: 'https://vue.threadless.com/' }
+          { text: 'İşler', link: 'https://vuejobs.com/?ref=vuejs' },
+          { text: 'Tişört Mağazası', link: 'https://vue.threadless.com/' }
         ]
       },
       {
-        text: 'Official Libraries',
+        text: 'Resmi Kütüphaneler',
         items: [
           { text: 'Vue Router', link: 'https://router.vuejs.org/' },
           { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
-          { text: 'Tooling Guide', link: '/guide/scaling-up/tooling.html' }
+          { text: 'Araç Kılavuzu', link: '/guide/scaling-up/tooling.html' }
         ]
       },
       {
-        text: 'Video Courses',
+        text: 'Video Kursları',
         items: [
           {
             text: 'Vue Mastery',
@@ -77,45 +77,45 @@ const nav: ThemeConfig['nav'] = [
         ]
       },
       {
-        text: 'Help',
+        text: 'Yardım',
         items: [
           {
-            text: 'Discord Chat',
+            text: 'Discord Sohbeti',
             link: 'https://discord.com/invite/HBherRA'
           },
           {
-            text: 'GitHub Discussions',
+            text: 'GitHub Tartışmaları',
             link: 'https://github.com/vuejs/core/discussions'
           },
-          { text: 'DEV Community', link: 'https://dev.to/t/vue' }
+          { text: 'DEV Topluluğu', link: 'https://dev.to/t/vue' }
         ]
       },
       {
-        text: 'News',
+        text: 'Haberler',
         items: [
           { text: 'Blog', link: 'https://blog.vuejs.org/' },
           { text: 'Twitter', link: 'https://twitter.com/vuejs' },
-          { text: 'Events', link: 'https://events.vuejs.org/' },
-          { text: 'Newsletters', link: '/ecosystem/newsletters' }
+          { text: 'Etkinlikler', link: 'https://events.vuejs.org/' },
+          { text: 'Bültenler', link: '/ecosystem/newsletters' }
         ]
       }
     ]
   },
   {
-    text: 'About',
+    text: 'Hakkında',
     activeMatch: `^/about/`,
     items: [
-      { text: 'FAQ', link: '/about/faq' },
-      { text: 'Team', link: '/about/team' },
-      { text: 'Releases', link: '/about/releases' },
+      { text: 'SSS', link: '/about/faq' },
+      { text: 'Takım', link: '/about/team' },
+      { text: 'Sürümler', link: '/about/releases' },
       {
-        text: 'Community Guide',
+        text: 'Topluluk Kılavuzu',
         link: '/about/community-guide'
       },
-      { text: 'Code of Conduct', link: '/about/coc' },
-      { text: 'Privacy Policy', link: '/about/privacy' },
+      { text: 'Davranış Kuralları', link: '/about/coc' },
+      { text: 'Gizlilik Politikası', link: '/about/privacy' },
       {
-        text: 'The Documentary',
+        text: 'Belgesel',
         link: 'https://www.youtube.com/watch?v=OrxmtDw4pVI'
       }
     ]
@@ -125,7 +125,7 @@ const nav: ThemeConfig['nav'] = [
     link: '/sponsor/'
   },
   {
-    text: 'Partners',
+    text: 'Ortaklar',
     link: '/partners/',
     activeMatch: `^/partners/`
   }
@@ -134,114 +134,114 @@ const nav: ThemeConfig['nav'] = [
 export const sidebar: ThemeConfig['sidebar'] = {
   '/guide/': [
     {
-      text: 'Getting Started',
+      text: 'Başlarken',
       items: [
-        { text: 'Introduction', link: '/guide/introduction' },
+        { text: 'Giriş', link: '/guide/introduction' },
         {
-          text: 'Quick Start',
+          text: 'Hızlı Başlangıç',
           link: '/guide/quick-start'
         }
       ]
     },
     {
-      text: 'Essentials',
+      text: 'Temel Bilgiler',
       items: [
         {
-          text: 'Creating an Application',
+          text: 'Uygulama Oluşturma',
           link: '/guide/essentials/application'
         },
         {
-          text: 'Template Syntax',
+          text: 'Şablon Söz Dizimi',
           link: '/guide/essentials/template-syntax'
         },
         {
-          text: 'Reactivity Fundamentals',
+          text: 'Reaktivite Temelleri',
           link: '/guide/essentials/reactivity-fundamentals'
         },
         {
-          text: 'Computed Properties',
+          text: 'Hesaplanmış Özellikler',
           link: '/guide/essentials/computed'
         },
         {
-          text: 'Class and Style Bindings',
+          text: 'Sınıf ve Stil Bağlantıları',
           link: '/guide/essentials/class-and-style'
         },
         {
-          text: 'Conditional Rendering',
+          text: 'Koşullu İşleme',
           link: '/guide/essentials/conditional'
         },
-        { text: 'List Rendering', link: '/guide/essentials/list' },
+        { text: 'Liste İşleme', link: '/guide/essentials/list' },
         {
-          text: 'Event Handling',
+          text: 'Olay İşleme',
           link: '/guide/essentials/event-handling'
         },
-        { text: 'Form Input Bindings', link: '/guide/essentials/forms' },
+        { text: 'Form Girdisi Bağlantıları', link: '/guide/essentials/forms' },
         {
-          text: 'Lifecycle Hooks',
+          text: 'Yaşam Döngüsü Kancaları',
           link: '/guide/essentials/lifecycle'
         },
-        { text: 'Watchers', link: '/guide/essentials/watchers' },
-        { text: 'Template Refs', link: '/guide/essentials/template-refs' },
+        { text: 'İzleyiciler', link: '/guide/essentials/watchers' },
+        { text: 'Şablon Referansları', link: '/guide/essentials/template-refs' },
         {
-          text: 'Components Basics',
+          text: 'Bileşen Temelleri',
           link: '/guide/essentials/component-basics'
         }
       ]
     },
     {
-      text: 'Components In-Depth',
+         text: 'Bileşenler Derinlemesine',
       items: [
         {
-          text: 'Registration',
+          text: 'Kayıt',
           link: '/guide/components/registration'
         },
-        { text: 'Props', link: '/guide/components/props' },
-        { text: 'Events', link: '/guide/components/events' },
-        { text: 'Component v-model', link: '/guide/components/v-model' },
+        { text: 'Özellikler', link: '/guide/components/props' },
+        { text: 'Olaylar', link: '/guide/components/events' },
+        { text: 'Bileşen v-model', link: '/guide/components/v-model' },
         {
-          text: 'Fallthrough Attributes',
+          text: 'Geçirici Nitelikler',
           link: '/guide/components/attrs'
         },
-        { text: 'Slots', link: '/guide/components/slots' },
+        { text: 'Yuvalar', link: '/guide/components/slots' },
         {
-          text: 'Provide / inject',
+          text: 'Sağla / Enjekte Et',
           link: '/guide/components/provide-inject'
         },
         {
-          text: 'Async Components',
+          text: 'Asenkron Bileşenler',
           link: '/guide/components/async'
         }
       ]
     },
     {
-      text: 'Reusability',
+       text: 'Yeniden Kullanılabilirlik',
       items: [
         {
-          text: 'Composables',
+          text: 'Bileşenler',
           link: '/guide/reusability/composables'
         },
         {
-          text: 'Custom Directives',
+          text: 'Özel Direktifler',
           link: '/guide/reusability/custom-directives'
         },
-        { text: 'Plugins', link: '/guide/reusability/plugins' }
+        { text: 'Eklentiler', link: '/guide/reusability/plugins' }
       ]
     },
     {
-      text: 'Built-in Components',
+      text: 'Yerleşik Bileşenler',
       items: [
-        { text: 'Transition', link: '/guide/built-ins/transition' },
+        { text: 'Geçiş', link: '/guide/built-ins/transition' },
         {
-          text: 'TransitionGroup',
+          text: 'Geçiş Grubu',
           link: '/guide/built-ins/transition-group'
         },
-        { text: 'KeepAlive', link: '/guide/built-ins/keep-alive' },
+        { text: 'Aktif Tut', link: '/guide/built-ins/keep-alive' },
         { text: 'Teleport', link: '/guide/built-ins/teleport' },
-        { text: 'Suspense', link: '/guide/built-ins/suspense' }
+        { text: 'Askıya Alma', link: '/guide/built-ins/suspense' }
       ]
     },
     {
-      text: 'Scaling Up',
+      text: 'Ölçeklendirme',
       items: [
         { text: 'Single-File Components', link: '/guide/scaling-up/sfc' },
         { text: 'Tooling', link: '/guide/scaling-up/tooling' },
